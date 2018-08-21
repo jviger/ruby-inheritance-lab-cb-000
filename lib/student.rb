@@ -9,7 +9,7 @@ class Student < User
     @knowledge << learned
   end
   
- # def knowledge
- #   self.knowledge
-  #end
+  def knowledge
+    @knowledge
+  end
 end
